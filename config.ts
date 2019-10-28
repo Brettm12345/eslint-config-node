@@ -23,6 +23,7 @@ const config: Linter.Config = {
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:unicorn/recommended",
+    "plugin:jest/recommended",
     "standard",
     "prettier",
     "prettier/standard"
