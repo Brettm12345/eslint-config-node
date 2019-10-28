@@ -354,6 +354,11 @@ eslint-plugin-sort-keys-fix@^1.0.1:
   dependencies:
     requireindex "~1.1.0"
 
+eslint-plugin-standard@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-4.0.1.tgz#ff0519f7ffaff114f76d1bd7c3996eef0f6e20b4"
+  integrity sha512-v/KBnfyaOMPmZc/dmc6ozOdWqekGp7bBGq4jLAecEfPGmfKiWS4sA8sC0LqiV9w5qmXAtXVn4M3p1jSyhY85SQ==
+
 eslint-plugin-unicorn@^12.1.0:
   version "12.1.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-12.1.0.tgz#6ebff6c90ecf4df7ce1615e18928d10bb50c2ff5"
@@ -1039,18 +1044,6 @@ type-fest@^0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
-
-typescript-require@^0.2.10:
-  version "0.2.10"
-  resolved "https://registry.yarnpkg.com/typescript-require/-/typescript-require-0.2.10.tgz#8c8ee2aa75f3530b560b849c2927cd3697eba68e"
-  integrity sha1-jI7iqnXzUwtWC4ScKSfNNpfrpo4=
-  dependencies:
-    typescript "^1.5.3"
-
-typescript@^1.5.3:
-  version "1.8.10"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-1.8.10.tgz#b475d6e0dff0bf50f296e5ca6ef9fbb5c7320f1e"
-  integrity sha1-tHXW4N/wv1DyluXKbvn7tccyDx4=
 
 typescript@^3.6.4:
   version "3.6.4"
