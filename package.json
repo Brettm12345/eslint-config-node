@@ -1,7 +1,7 @@
 {
   "name": "@brettm12345/eslint-config-node",
   "author": "brettm12345",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Eslint configuration for nodejs projects at The MMM Agency",
   "scripts": {
     "build": "tsc"
