@@ -1,4 +1,4 @@
-import { Linter } from 'eslint'
+import { Linter } from "eslint";
 
 const config: Linter.Config = {
   env: {
@@ -13,6 +13,7 @@ const config: Linter.Config = {
     "@typescript-eslint",
     "fp",
     "import",
+    "prefer-arrow-functions",
     "prettier",
     "standard",
     "unicorn"
@@ -32,8 +33,17 @@ const config: Linter.Config = {
     "arrow-body-style": ["error", "as-needed"],
     "comma-dangle": "off",
     "no-new": "off",
-    "no-duplicate-imports": "error",
-    "prefer-arrow-callback": "error",
+    "no-duplicate-imports": "off",
+
+    "prefer-arrow-functions/prefer-arrow-functions": [
+      "error",
+      {
+        classPropertiesAllowed: false,
+        disallowPrototype: true,
+        returnStyle: "implicit",
+        singleReturnOnly: false
+      }
+    ],
 
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/no-explicit-any": "off",
@@ -52,9 +62,12 @@ const config: Linter.Config = {
     "fp/no-this": "error",
     "fp/no-valueof-field": "error",
 
+    "import/no-duplicate": "off",
+
     "prettier/prettier": "error",
 
     "unicorn/prevent-abbreviations": "off",
+    "unicorn/consistent-function-scoping": "off",
     "unicorn/filename-case": [
       "error",
       {
